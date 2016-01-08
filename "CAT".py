@@ -1,4 +1,4 @@
-#didac you're a faggot
+#didac you're a faggot - no u
 
 import random #it might be imported already from sakubot i guess 
 # WARNING ERRORS EVERYWHERE literally first time on python and doing this after around 24h of not sleeping
