@@ -5,7 +5,6 @@ import random #it might be imported already from sakubot i guess
 # Everything would be better if the list of players could be turned into a class, like, much better
 # But I don't know how to do that
 # Needs try: except: blocks everywhere
-# .choose and .join must be commands that give b
 
 def cat(self, channel, nick, text):
 	#need the output dunno what you will make it so i'll just call it this for now
