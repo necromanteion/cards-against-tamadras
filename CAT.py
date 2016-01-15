@@ -1,10 +1,11 @@
-#didac you're a faggot - no u
+#didac you're a faggot
 
 import random #it might be imported already from sakubot i guess 
 # WARNING ERRORS EVERYWHERE literally first time on python and doing this after around 24h of not sleeping
 # Everything would be better if the list of players could be turned into a class, like, much better
 # But I don't know how to do that
 # Needs try: except: blocks everywhere
+# .choose and .join must be commands that give b
 
 def cat(self, channel, nick, text):
 	#need the output dunno what you will make it so i'll just call it this for now
@@ -12,7 +13,6 @@ def cat(self, channel, nick, text):
 	out(channel, message)
 	time = time.time()
 	highwin=0
-	count=0
 	Players = player0 = player1 = player2 = player3 = player4 = player5 = player6 = player7 = player8 = player9 = list()
         playerdict = [player1,player2,player3,player4,player5,player6,player7,player8,player9]
 	while (time+10) != time.time():
@@ -78,8 +78,8 @@ def outputWhite(self):
 def outputBlack(self, listblack):
 	message = "Judge from these:"
 	privmsg(channel, judge, message)
-	for i in listblack:
-		message = "(" + cards + ")" + i
+	for m in listblack:
+		message = "(" + cards + ")" + m
 		privmsg(channel, judge, message)		
 		
 class Deck:
